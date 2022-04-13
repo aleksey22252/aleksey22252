@@ -1,8 +1,7 @@
-
-    .left {
+.left {
     width: 15%;
     height: 600px;
-    background-color:blue;
+    background-color:#FFD700;
     text-align:left;
     font-family-arial:sens-serif;
     float:left;}
@@ -22,7 +21,7 @@
     h1 {
 background-color: RGB(249, 201, 16);}
        li {
-background-color:#008000;}
+background-color:;}
 
 body{
     background: #f00;
@@ -32,7 +31,46 @@ body{
 }
 @media screen and (max-width:1920px) and (max-height:1080px){
 body{background:green;}
+    .left {
+    width: 15%;
+    height: 600px;
+    background-color:#FFD700;
+    text-align:left;
+    font-family-arial:sens-serif;
+    float:left;}
+
+    .mid {
+    background-color:blue;
+    padding 40px;
+    font-family-arial:sens-serif}
+
+
+
+    .flooter {
+    background-color :red;
+    text align :right;
+    height:200px;}
 }
 @media screen and (max-width:800px) and (max-height:600px){
 body{background:yellow;}
+    .left {
+    width: 30%;
+    height: 900px;
+    background-color:#FFD700;
+    text-align:left;
+    font-family-arial:sens-serif;
+    float:left;}
+
+    .mid {
+    background-color:blue;
+    padding 40px;
+    font-family-arial:sens-serif}
+
+
+
+    .flooter {
+    background-color :red;
+    text align :right;
+    height:200px;}
 }
+   
