@@ -6,7 +6,10 @@
     font-family-arial:sens-serif;
     float:left;}
 
-    .mid {
+	.iii{Background-image:url (images/solnechnay sistema.jpg)
+          }
+
+ /*   .mid {
     background-color:blue;
     padding 40px;
     font-family-arial:sens-serif}
@@ -16,41 +19,74 @@
     .flooter {
     background-color :red;
     text align :right;
-    height:200px;}
+    height:200px;}*/
 
-    h1 {
-background-color: RGB(249, 201, 16);}
        li {
 background-color:;}
 
 body{
-    background: #f00;
+    background: #;
 }
-@media screen and (max-width:2560px and max-height:1440px){
- body{background:blue;}
-}
-@media screen and (max-width:1920px) and (max-height:1080px){
-body{background:green;}
-    .left {
+@media screen and (max-width:3840px) and (max-height:2160px){
+ body{background:#FF00FF;}
+ .left {
     width: 15%;
     height: 600px;
-    background-color:#FFD700;
+    background-color:#EE82EE;
     text-align:left;
     font-family-arial:sens-serif;
     float:left;}
+h1 {
+background-color:#DA70D6;}
 
-    .mid {
-    background-color:blue;
-    padding 40px;
-    font-family-arial:sens-serif}
-
-
-
-    .flooter {
-    background-color :red;
-    text align :right;
-    height:200px;}
+@media screen and (max-width:2560px) and (max-height:1440px){
+ body{background:#20B2AA;}
+ .left {
+    width: 15%;
+    height: 600px;
+    background-color:#00FFFF;
+    text-align:left;
+    font-family-arial:sens-serif;
+    float:left;}
+h1 {
+background-color:#ADFF2F;}
 }
+@media screen and (max-width:1920px) and (max-height:1080px){
+body{background:#7CFC00}
+    .left {
+    width: 15%;
+    height: 600px;
+    background-color:#32CD32;
+    text-align:left;
+    font-family-arial:sens-serif;
+    float:left;}
+h1 {
+background-color:#ADFF2F;}
+
+@media screen and (max-width:1400px) and (max-height:1050px){
+body{background:#FFC0CB} 
+.left {
+    width: 15%;
+    height: 600px;
+    background-color:#FF69B4;
+    text-align:left;
+    font-family-arial:sens-serif;
+    float:left;}
+h1 {
+background-color:#FF1493;}
+
+@media screen and (max-width:1280px) and (max-height:1024px){
+body{background:#D3D3D3} 
+   .left {
+    width: 15%;
+    height: 600px;
+    background-color:#808080;
+    text-align:left;
+    font-family-arial:sens-serif;
+    float:left;}
+h1 {
+background-color:#708090;}
+
 @media screen and (max-width:800px) and (max-height:600px){
 body{background:yellow;}
     .left {
@@ -61,16 +97,6 @@ body{background:yellow;}
     font-family-arial:sens-serif;
     float:left;}
 
-    .mid {
-    background-color:blue;
-    padding 40px;
-    font-family-arial:sens-serif}
-
-
-
-    .flooter {
-    background-color :red;
-    text align :right;
-    height:200px;}
-}
+h1 {
+background-color:#FFA500;}
    
