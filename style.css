@@ -1,15 +1,16 @@
-.left {
+
+    .left {
     width: 15%;
-    height: 600px;
-    background-color:#FFD700;
+    height: 600px;    
+background-color:#FFD700;
     text-align:left;
     font-family-arial:sens-serif;
-    float:left;}
+    float:left;
+    }
 
-	.iii{Background-image:url (images/solnechnay sistema.jpg)
-          }
+	
 
- /*   .mid {
+    .mid {
     background-color:blue;
     padding 40px;
     font-family-arial:sens-serif}
@@ -19,14 +20,23 @@
     .flooter {
     background-color :red;
     text align :right;
-    height:200px;}*/
+    height:200px;}
 
        li {
 background-color:;}
 
-body{
-    background: #;
-}
+
+body{background:#7CFC00 }
+    .left {
+    width: 15%;
+    height: 600px;
+ /*   background-color:#32CD32;*/
+    text-align:left;
+    font-family-arial:sens-serif;
+    float:left;}
+
+
+
 @media screen and (max-width:3840px) and (max-height:2160px){
  body{background:#FF00FF;}
  .left {
@@ -38,6 +48,11 @@ body{
     float:left;}
 h1 {
 background-color:#DA70D6;}
+.phone {background: red; url(img/sl1920.jpg) no-repeat;
+width: 10px;
+height:0px;
+margin-left:290px;
+}
 
 @media screen and (max-width:2560px) and (max-height:1440px){
  body{background:#20B2AA;}
@@ -51,8 +66,14 @@ background-color:#DA70D6;}
 h1 {
 background-color:#ADFF2F;}
 }
+.phone {background: red; url(img/sl1920.jpg) no-repeat;
+width: 10px;
+height:0px;
+margin-left:290px;
+}
 @media screen and (max-width:1920px) and (max-height:1080px){
-body{background:#7CFC00}
+body{background:#7CFC00;
+}
     .left {
     width: 15%;
     height: 600px;
@@ -62,6 +83,12 @@ body{background:#7CFC00}
     float:left;}
 h1 {
 background-color:#ADFF2F;}
+
+.phone {background: red; url(img/sl1920.jpg) no-repeat;
+width: 10px;
+height:0px;
+margin-left:290px;
+}
 
 @media screen and (max-width:1400px) and (max-height:1050px){
 body{background:#FFC0CB} 
@@ -74,6 +101,11 @@ body{background:#FFC0CB}
     float:left;}
 h1 {
 background-color:#FF1493;}
+.phone {background: red; url(img/sl1400.png) no-repeat;
+width: 10px;
+height:0px;
+margin-left:210px;
+}
 
 @media screen and (max-width:1280px) and (max-height:1024px){
 body{background:#D3D3D3} 
@@ -87,6 +119,12 @@ body{background:#D3D3D3}
 h1 {
 background-color:#708090;}
 
+.phone {background: red; url(img/sl1400.png) no-repeat;
+width: 10px;
+height:0px;
+margin-left:195px;
+}
+
 @media screen and (max-width:800px) and (max-height:600px){
 body{background:yellow;}
     .left {
@@ -99,4 +137,8 @@ body{background:yellow;}
 
 h1 {
 background-color:#FFA500;}
-   
+.phone {background: red; url(img/sl1400.png) no-repeat;
+width: 10px;
+height:0px;
+margin-left:235px;
+}
