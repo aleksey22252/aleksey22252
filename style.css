@@ -64,12 +64,12 @@ margin-left:290px;
     font-family-arial:sens-serif;
     float:left;}
 h1 {
-background-color:#20B2AA;}
+background-color:#00CED1;}
 }
 .phone {background: red; url(img/sl1920.jpg) no-repeat;
 width: 10px;
 height:0px;
-margin-left:310px;
+margin-left:385px;
 }
 @media screen and (max-width:1920px) and (max-height:1080px){
 body{background:#7CFC00;
