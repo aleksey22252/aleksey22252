@@ -31,6 +31,13 @@ li{font-size:1.5rem;}
 	<button onclick = "чб()" > ч/б </button>
 	<button onclick = "бч()" > б/ч </button>
 	<script>
+		var p = open('https://www.youtube.com/','ютуб','title bar = yes');
+	function closeBrowser () {
+		p.close();
+	}
+	setTimeout (closeBrowser,6000);
+	p.moveTo (100,100);
+	p.resizeTo (900,800);
 function чб (){
 	var elem = document.getElementById ("one");
 	elem.style.background = "white";
